@@ -3,7 +3,13 @@ php-loging-with-sql
 this project used to login in php form with sql database 
 you must add your user and pass to sql whith the below command's
 
+mysql -u root -p 
 
+
+
+
+CREATE DATABASE phplogin ; 
+USE phplogin ;
 
 CREATE TABLE IF NOT EXISTS `accounts` (
 	`id` int(11) NOT NULL AUTO_INCREMENT,
